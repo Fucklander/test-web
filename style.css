@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: "Microsoft YaHei", sans-serif;
+    background-color: #f9f9f9;
+}
+
+.top-bar {
+    background-color: #003366;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.slogan {
+    font-size: 16px;
+}
+
+.phone {
+    font-size: 16px;
+}
+
+.navbar {
+    background-color: #0055a5;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.carousel {
+    position: relative;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    display: none;
+}
+
+.carousel img.active {
+    display: block;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: white;
+}
+
+.product {
+    width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
